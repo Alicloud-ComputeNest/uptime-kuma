@@ -167,13 +167,7 @@ Resources:
             tee /etc/docker/daemon.json <<-'EOF'
             {
                 "registry-mirrors": [
-                    "https://docker.m.daocloud.io",
-                    "https://mirror.baidubce.com",
-                    "https://dockerproxy.com",
-                    "https://mirror.iscas.ac.cn",
-                    "https://huecker.io",
-                    "https://dockerhub.timeweb.cloud",
-                    "https://noohub.ru",
+                    "https://mirrors-ssl.aliyuncs.com/"
                 ]
             }
             EOF
